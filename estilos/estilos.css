@@ -1,0 +1,370 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+
+}
+body{
+font-family: 'Hubballi', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Caveat', cursive;
+background-image: url(../paginas/imagenes/45degreee_fabric.png);
+background-repeat: repeat;
+
+}
+
+.navegacion__titulo{
+font-weight: 600;
+font-size: 50px; 
+padding-top: 2%;
+text-align: center;
+}
+/*position: relative;
+left: 2%;
+top: 40px; navegacion__titulo
+
+position: relative;
+left: 40%;menuli
+*/
+a{
+color: black;
+}
+header{
+background-color: chartreuse;
+font-weight: 500;
+height: 180px;
+text-align: center;
+width: 100%;
+}
+.nav:hover{
+border-radius: 15%;
+height: 105px;
+width: 8%;
+text-align: center;
+background-color: red;
+
+}
+.menu li{
+font-size: 20px;
+margin-left: 4%;
+margin-top: 2%;
+padding: 2px;
+display: flex;
+display: inline-block;
+}
+.menu li:hover ul {
+display: block;
+padding: 8px;
+}
+.imagenprincipal img{
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+/*--------AQUI TERMINA EL NAV*/
+/*--SECCION INFORMACION INDEX---*/
+.bio{
+margin-top: 0.8%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../paginas/imagenes/newspaper.JPEG);
+background-repeat: repeat-x;
+z-index: 2;
+display: flex;
+height: 700px;
+box-shadow: -15px -10px 20px black;
+}
+.bio h2{
+box-shadow: 5px 5px 8px #6c757d;
+margin-bottom: 5px;
+font-size: 50px;
+font-weight: 200;
+}
+.biography{
+border-radius: 1%;
+z-index: 1;
+text-transform: uppercase;
+margin: 60px 200px;
+padding: 30px 15px;
+width: 90%;
+background-image: url(../paginas/imagenes/45degreee_fabric.png);
+height: 500px;
+text-align:center;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+line-height: 60px;
+box-shadow: 10px 10px 25px black;
+font-family: 'Caveat', cursive;
+}
+/*----SECCION ALBUM INDEX*/
+.albums{
+height: 700px;
+margin-top: 25px;
+font-size: 50px;
+
+}
+.albums img{
+margin-right: 500px;
+}
+.more{  
+background-color: #6c757d;
+box-shadow: 15px 10px 20px 15px black;
+margin-bottom: 10rem;
+margin-left: 800px;
+position: relative;
+bottom: 450px;
+display: block;
+width: 600px;
+height: 250px;
+font-size: 40px;
+text-align: center;
+line-height: 80px;
+
+}
+.albums a:hover{
+background-color: #ced4da;
+box-shadow: 4px 4px 5px black;
+border-radius: 2%;
+width: 80px;
+padding: 8px;
+}
+/*------------SECCION TOURS INDEX*/
+.tourindex{
+margin-top: 10%;
+width: 100%;
+color: white;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../paginas/imagenes/conciertoo.jpg);
+height: 580px;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+text-align: center;
+line-height: 30px;
+word-spacing: 5px;
+}
+.tourindex__item{
+width: 700px;
+height: 90px;
+padding: 5px;
+border-bottom: 1px solid white;
+}
+.tourindex__item:hover{
+background-color: black;
+height: 60px;
+opacity: 0.5;
+}
+.moretour:hover{
+background-color: #f2e9e4;
+opacity: 0.5;
+
+}
+.moretour{
+color: white;
+width: 100%;
+margin-top: 10px;
+text-align: center;
+font-weight: 800;
+font-size: 40px;
+}
+.botonindex{
+font-size: 15px;
+word-spacing: 2px;
+background-color:black;
+color: white;
+height: 30px;
+}
+/*--------SECCION FOOTER---------*/
+
+footer{ 
+display: flex;
+background-color: #e5383b;
+background-repeat: repeat;
+height: 180px;
+width: 100%;
+margin-top: 0;
+
+}
+footer img{
+    
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    }
+.redes{
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 30px;
+
+}
+.registrofooter:hover{
+background-color: red;
+padding: 10px;
+
+}
+.registrofooter{
+    
+margin: 10px;
+}
+.registrofooter input{
+display: inline-block;
+font-family:  'Hubballi', cursive;
+height: 15px;
+margin: 0;
+border-radius: 10%;
+background-color: #d8dee9;
+}
+#copyright{
+text-align: justify;
+font-size:20px;
+margin-top: 150px;
+margin-left: -540px;
+}
+/*-------------------fin del index principal/------*/
+/* TOUR DATES*/
+.secciontour{
+font-size: 20px;
+width: 100%;
+height: auto;
+color: white;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+gap: 80px;
+word-spacing: 15px;
+background-color: black;
+text-transform: uppercase;
+
+}
+.tourboton{
+color: white;
+text-align: center;
+font-family: 'Caveat', cursive;
+height: 30px;
+width: 8rem;
+background-color: transparent;
+text-transform: uppercase;
+}
+.secciontour__fechas{
+height: 100%;
+width: 70rem;
+text-align: center;
+border-bottom: 2px solid white;
+}
+.secciontour__fechas:hover{
+background-color: #343a40;
+width: 100%;
+height: 60px;
+text-align: center;
+}
+.secciontour img{
+width: 100%;
+}
+/*FIN DE TOUR DATES-------------------------*/
+
+
+
+/*PHOTOS*/
+.container img{
+width: 100%;
+height: 600px;
+}
+.container {  display: grid;
+grid-template-columns: 0.2fr 0.2fr 0.5fr 0.5fr;
+grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
+gap:  8px;
+row-gap: 20px;
+grid-auto-flow: row;
+grid-template-areas:
+"imagen3 imagen3 imagen2 imagen2"
+"imagen4 imagen4 imagen4 imagen4"
+"imagen1 imagen1 imagen5 imagen5"
+"imagen6 imagen6 imagen6 imagen6";
+}
+
+.imagen1 { grid-area: imagen1; }
+
+.imagen2 { grid-area: imagen2; }
+
+.imagen3 { grid-area: imagen3; }
+
+.imagen4 { grid-area: imagen4; }
+
+.imagen5 { grid-area: imagen5; }
+
+.imagen6 { grid-area: imagen6; }
+.container{
+    width: 100%;
+    object-fit: cover;
+}
+.imagen1{
+    width: 100%;
+}
+.imagen3{
+    width: 55rem;
+}
+.imagen2{
+    height: 200px;
+}
+
+/*----------TERMINA SECCION DE GALERIA------------*/
+
+/*--------ESTILOS VIDEOS AQUI ---------*/
+
+/*------ESTULOS DISCOGRAPHY AQUI----------*/ 
+.padrediscography{
+    display: inline-block;
+    width: 60%;
+    height: 400px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
+.padrediscography img{
+    width: 40%;
+    height: 350px;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 15px 10px 20px 15px black;
+}
+
+/*------ABOUT-----*/
+.about{
+    
+    background-image: url(../paginas/imagenes/tunel.jpg);
+    object-fit: cover;
+    background-position: 25%;
+    width: 100%;
+    height: 50rem;
+    box-shadow: 20px 10px 15px black;
+    
+}
+.containerabout{
+overflow-y: scroll;
+background-color: rgb(0, 0, 0);
+opacity: .5;
+color: white;
+width: 60%;
+height: 46rem;
+margin: 10px;
+
+padding: 15px;
+font-size: 35px;
+text-align: justify;
+line-height: 50px;
+font-weight: 900;
+}
+.imagenabout{
+    
+    width: 100%;
+    object-fit: fill;
+    margin-left: 15%;
+    
+}
